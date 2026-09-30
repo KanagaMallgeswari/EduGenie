@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>EduGenie</title>
+    <link rel="stylesheet" href="/static/style.css" />
+  </head>
+  <body>
+    <h1>Welcome to EduGenie</h1>
+    <form method="post">
+      <label>Select Task:</label>
+      <select name="task">
+        <option value="qa">Q&A</option>
+        <option value="explain">Explain</option>
+        <option value="quiz">Quiz</option>
+        <option value="summarize">Summarize</option>
+        <option value="learn">Learning Path</option>
+      </select>
+      <br /><br />
+      <textarea
+        name="text"
+        rows="8"
+        cols="50"
+        placeholder="Enter your question or topic"
+      ></textarea>
+      <br /><br />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
